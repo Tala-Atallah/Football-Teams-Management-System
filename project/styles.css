@@ -1,0 +1,134 @@
+
+.container {
+    display:flex;
+ }
+    header {
+         background-color: #3c0549;
+         padding: 20px;
+         display: flex;
+         height:50px;
+         align-items: center;
+         justify-content: space-between;
+     }
+
+     header img {
+       margin-left: 10px;
+    }
+    footer img {
+        margin-left: 10px;
+     }
+    header p {
+        justify-content: space-between;
+    }
+   
+     footer {
+         
+         padding: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         background-color: #dec6e3;
+
+     }
+     h2{
+      color :aliceblue;
+     }
+body {
+    background-color: #f3e4f1;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+         width: 100px;
+         height: 50px;
+     }
+     .logo1 {
+         width: 50px;
+         height: 20px;
+     }
+     header .logo2 {
+        width: 35px;
+        height: 35px;
+    }
+    h4{
+        color: #c6e4e7;
+ 
+    }
+    
+    nav {
+        width: 10em;
+        
+        background-color: #e4b3f0;
+      
+         float: left;
+         position: absolute;
+
+    }
+
+    footer{
+        clear: absolute;
+    }
+
+    input:invalid:required{
+        background-color: #ffe2dc;
+
+    }
+    h1, h2{
+        font-family: sans-serif;
+        font-weight: bold;
+        
+      }
+
+      .table {
+        font-family: sans-serif;
+        font-size: 12px;
+        color: #212b2c;
+        
+      }
+
+      .label-border {
+        display: inline-block;
+        border: 1px solid #201c6d; 
+        padding: 5px;
+      }
+      
+      .label-border span {
+        display: inline-block;
+        padding: 2px;
+      }
+
+      .table tr:nth-child(even) {
+        background-color: #d9f9fb; 
+      }
+      .table tr:nth-child(odd) {
+        background-color: #ecccf5; 
+      }
+      
+     .table th{
+        background-color :#97caf6;
+        text-align: center;
+        color: rgb(36, 59, 190);
+        padding: 10px;
+        
+      }
+      .button:active {
+        background-color: #6ff388;
+        color: #FFFFFF;
+      }
+    
+    .error {
+        color: red;
+      }
+      .successful{
+        color: green;
+      }
+  
+      .about {
+        text-align: center;
+        color: #555;
+        margin: 50px;
+
+      }
+
+     
+     
